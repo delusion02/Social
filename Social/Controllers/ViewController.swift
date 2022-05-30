@@ -8,13 +8,6 @@
 import UIKit
 import Foundation
 
-class Session {
-    
-    var token: String = ""
-    var userId: Int = 0
-    
-}
-
 class ViewController: UIViewController {
     
     @IBOutlet weak var welcomeLabel: UILabel!
