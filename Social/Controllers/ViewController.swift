@@ -41,7 +41,7 @@ class ViewController: UIViewController {
     
     func showAlert(message: String, completion: @escaping(UIAlertAction) -> Void) {
         let alertController = UIAlertController (title: "Ошибка авторизации", message: message, preferredStyle: .alert)
-        let alertAction = UIAlertAction (title: "Повторить ввод", style: .cancel, handler: completion)
+        let alertAction = UIAlertAction (title: "Повторите ввод", style: .cancel, handler: completion)
         alertController.addAction(alertAction)
         present(alertController, animated: true, completion: nil)
         
